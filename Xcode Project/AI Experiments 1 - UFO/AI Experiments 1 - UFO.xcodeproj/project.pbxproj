@@ -24,12 +24,14 @@
 		E1226D7C20E653A5006CFADA /* WorkingDirectory.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E1226D6220E653A4006CFADA /* WorkingDirectory.cpp */; };
 		E1226D7D20E653A5006CFADA /* Main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E1226D6420E653A4006CFADA /* Main.cpp */; };
 		E1226D7E20E653A5006CFADA /* SceneSplashScreen.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E1226D6D20E653A5006CFADA /* SceneSplashScreen.cpp */; };
-		E1226D8420E653B3006CFADA /* Test Map 1.tmx in Resources */ = {isa = PBXBuildFile; fileRef = E1226D7F20E653B3006CFADA /* Test Map 1.tmx */; };
-		E1226D8520E653B3006CFADA /* Viking.json in Resources */ = {isa = PBXBuildFile; fileRef = E1226D8020E653B3006CFADA /* Viking.json */; };
 		E1226D8620E653B3006CFADA /* that_games_guy_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = E1226D8120E653B3006CFADA /* that_games_guy_logo.png */; };
-		E1226D8720E653B3006CFADA /* Jungle Tiles.png in Resources */ = {isa = PBXBuildFile; fileRef = E1226D8220E653B3006CFADA /* Jungle Tiles.png */; };
-		E1226D8820E653B3006CFADA /* Viking.png in Resources */ = {isa = PBXBuildFile; fileRef = E1226D8320E653B3006CFADA /* Viking.png */; };
 		E1226D8B20E653DD006CFADA /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1226D8A20E653DD006CFADA /* CoreFoundation.framework */; };
+		E1226D9520E65727006CFADA /* ufo1.png in Resources */ = {isa = PBXBuildFile; fileRef = E1226D9120E65726006CFADA /* ufo1.png */; };
+		E1226D9620E65727006CFADA /* ufo3.png in Resources */ = {isa = PBXBuildFile; fileRef = E1226D9220E65726006CFADA /* ufo3.png */; };
+		E1226D9720E65727006CFADA /* ufo4.png in Resources */ = {isa = PBXBuildFile; fileRef = E1226D9320E65726006CFADA /* ufo4.png */; };
+		E1226D9820E65727006CFADA /* ufo2.png in Resources */ = {isa = PBXBuildFile; fileRef = E1226D9420E65727006CFADA /* ufo2.png */; };
+		E1226D9B20E65E8D006CFADA /* C_Velocity.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E1226D9920E65E8D006CFADA /* C_Velocity.cpp */; };
+		E1226D9E20E663B1006CFADA /* C_ScreenWrapAround.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E1226D9C20E663B1006CFADA /* C_ScreenWrapAround.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -77,12 +79,16 @@
 		E1226D6B20E653A5006CFADA /* C_Sprite.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = C_Sprite.hpp; sourceTree = "<group>"; };
 		E1226D6C20E653A5006CFADA /* WorkingDirectory.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = WorkingDirectory.hpp; sourceTree = "<group>"; };
 		E1226D6D20E653A5006CFADA /* SceneSplashScreen.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SceneSplashScreen.cpp; sourceTree = "<group>"; };
-		E1226D7F20E653B3006CFADA /* Test Map 1.tmx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "Test Map 1.tmx"; sourceTree = "<group>"; };
-		E1226D8020E653B3006CFADA /* Viking.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Viking.json; sourceTree = "<group>"; };
 		E1226D8120E653B3006CFADA /* that_games_guy_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = that_games_guy_logo.png; sourceTree = "<group>"; };
-		E1226D8220E653B3006CFADA /* Jungle Tiles.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Jungle Tiles.png"; sourceTree = "<group>"; };
-		E1226D8320E653B3006CFADA /* Viking.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Viking.png; sourceTree = "<group>"; };
 		E1226D8A20E653DD006CFADA /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		E1226D9120E65726006CFADA /* ufo1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ufo1.png; sourceTree = "<group>"; };
+		E1226D9220E65726006CFADA /* ufo3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ufo3.png; sourceTree = "<group>"; };
+		E1226D9320E65726006CFADA /* ufo4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ufo4.png; sourceTree = "<group>"; };
+		E1226D9420E65727006CFADA /* ufo2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ufo2.png; sourceTree = "<group>"; };
+		E1226D9920E65E8D006CFADA /* C_Velocity.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = C_Velocity.cpp; sourceTree = "<group>"; };
+		E1226D9A20E65E8D006CFADA /* C_Velocity.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = C_Velocity.hpp; sourceTree = "<group>"; };
+		E1226D9C20E663B1006CFADA /* C_ScreenWrapAround.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = C_ScreenWrapAround.cpp; sourceTree = "<group>"; };
+		E1226D9D20E663B1006CFADA /* C_ScreenWrapAround.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = C_ScreenWrapAround.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -154,11 +160,11 @@
 		E1226D3620E65342006CFADA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				E1226D8220E653B3006CFADA /* Jungle Tiles.png */,
-				E1226D7F20E653B3006CFADA /* Test Map 1.tmx */,
+				E1226D9120E65726006CFADA /* ufo1.png */,
+				E1226D9420E65727006CFADA /* ufo2.png */,
+				E1226D9220E65726006CFADA /* ufo3.png */,
+				E1226D9320E65726006CFADA /* ufo4.png */,
 				E1226D8120E653B3006CFADA /* that_games_guy_logo.png */,
-				E1226D8020E653B3006CFADA /* Viking.json */,
-				E1226D8320E653B3006CFADA /* Viking.png */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -229,6 +235,10 @@
 				E1226D5820E653A3006CFADA /* C_Transform.cpp */,
 				E1226D6320E653A4006CFADA /* C_Transform.hpp */,
 				E1226D4F20E653A3006CFADA /* Component.hpp */,
+				E1226D9920E65E8D006CFADA /* C_Velocity.cpp */,
+				E1226D9A20E65E8D006CFADA /* C_Velocity.hpp */,
+				E1226D9C20E663B1006CFADA /* C_ScreenWrapAround.cpp */,
+				E1226D9D20E663B1006CFADA /* C_ScreenWrapAround.hpp */,
 			);
 			name = Components;
 			sourceTree = "<group>";
@@ -290,11 +300,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E1226D8420E653B3006CFADA /* Test Map 1.tmx in Resources */,
-				E1226D8820E653B3006CFADA /* Viking.png in Resources */,
-				E1226D8720E653B3006CFADA /* Jungle Tiles.png in Resources */,
+				E1226D9520E65727006CFADA /* ufo1.png in Resources */,
+				E1226D9820E65727006CFADA /* ufo2.png in Resources */,
+				E1226D9720E65727006CFADA /* ufo4.png in Resources */,
 				E1226D8620E653B3006CFADA /* that_games_guy_logo.png in Resources */,
-				E1226D8520E653B3006CFADA /* Viking.json in Resources */,
+				E1226D9620E65727006CFADA /* ufo3.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -327,10 +337,12 @@
 				E1226D7120E653A5006CFADA /* C_KeyboardMovement.cpp in Sources */,
 				E1226D7320E653A5006CFADA /* Animation.cpp in Sources */,
 				E1226D7720E653A5006CFADA /* Input.cpp in Sources */,
+				E1226D9B20E65E8D006CFADA /* C_Velocity.cpp in Sources */,
 				E1226D7220E653A5006CFADA /* C_Animation.cpp in Sources */,
 				E1226D6E20E653A5006CFADA /* SceneStateMachine.cpp in Sources */,
 				E1226D7A20E653A5006CFADA /* Bitmask.cpp in Sources */,
 				E1226D7520E653A5006CFADA /* C_Sprite.cpp in Sources */,
+				E1226D9E20E663B1006CFADA /* C_ScreenWrapAround.cpp in Sources */,
 				E1226D6F20E653A5006CFADA /* Game.cpp in Sources */,
 				E1226D7920E653A5006CFADA /* C_Transform.cpp in Sources */,
 				E1226D7B20E653A5006CFADA /* ObjectCollection.cpp in Sources */,
@@ -436,6 +448,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
+				GCC_OPTIMIZATION_LEVEL = 0;
 				INFOPLIST_FILE = "AI Experiments 1 - UFO/AI Experiments 1 - UFO-Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../Frameworks";
 				OTHER_CFLAGS = (
@@ -451,6 +464,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
+				GCC_OPTIMIZATION_LEVEL = 0;
 				INFOPLIST_FILE = "AI Experiments 1 - UFO/AI Experiments 1 - UFO-Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../Frameworks";
 				OTHER_CFLAGS = (

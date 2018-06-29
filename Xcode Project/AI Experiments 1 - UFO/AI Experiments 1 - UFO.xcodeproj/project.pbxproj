@@ -7,24 +7,82 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		E1226D3220E65342006CFADA /* ResourcePath.mm in Sources */ = {isa = PBXBuildFile; fileRef = E1226D3120E65342006CFADA /* ResourcePath.mm */; };
-		E1226D3520E65342006CFADA /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E1226D3420E65342006CFADA /* main.cpp */; };
-		E1226D3820E65342006CFADA /* cute_image.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E1226D3720E65342006CFADA /* cute_image.jpg */; };
-		E1226D3A20E65342006CFADA /* nice_music.ogg in Resources */ = {isa = PBXBuildFile; fileRef = E1226D3920E65342006CFADA /* nice_music.ogg */; };
-		E1226D3C20E65342006CFADA /* sansation.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E1226D3B20E65342006CFADA /* sansation.ttf */; };
-		E1226D3E20E65342006CFADA /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = E1226D3D20E65342006CFADA /* icon.png */; };
+		E1226D6E20E653A5006CFADA /* SceneStateMachine.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E1226D4420E653A2006CFADA /* SceneStateMachine.cpp */; };
+		E1226D6F20E653A5006CFADA /* Game.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E1226D4820E653A2006CFADA /* Game.cpp */; };
+		E1226D7020E653A5006CFADA /* SceneGame.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E1226D4A20E653A2006CFADA /* SceneGame.cpp */; };
+		E1226D7120E653A5006CFADA /* C_KeyboardMovement.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E1226D4C20E653A2006CFADA /* C_KeyboardMovement.cpp */; };
+		E1226D7220E653A5006CFADA /* C_Animation.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E1226D4E20E653A3006CFADA /* C_Animation.cpp */; };
+		E1226D7320E653A5006CFADA /* Animation.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E1226D5020E653A3006CFADA /* Animation.cpp */; };
+		E1226D7420E653A5006CFADA /* Window.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E1226D5220E653A3006CFADA /* Window.cpp */; };
+		E1226D7520E653A5006CFADA /* C_Sprite.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E1226D5320E653A3006CFADA /* C_Sprite.cpp */; };
+		E1226D7620E653A5006CFADA /* Object.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E1226D5520E653A3006CFADA /* Object.cpp */; };
+		E1226D7720E653A5006CFADA /* Input.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E1226D5620E653A3006CFADA /* Input.cpp */; };
+		E1226D7820E653A5006CFADA /* TileMapParser.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E1226D5720E653A3006CFADA /* TileMapParser.cpp */; };
+		E1226D7920E653A5006CFADA /* C_Transform.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E1226D5820E653A3006CFADA /* C_Transform.cpp */; };
+		E1226D7A20E653A5006CFADA /* Bitmask.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E1226D5920E653A4006CFADA /* Bitmask.cpp */; };
+		E1226D7B20E653A5006CFADA /* ObjectCollection.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E1226D5F20E653A4006CFADA /* ObjectCollection.cpp */; };
+		E1226D7C20E653A5006CFADA /* WorkingDirectory.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E1226D6220E653A4006CFADA /* WorkingDirectory.cpp */; };
+		E1226D7D20E653A5006CFADA /* Main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E1226D6420E653A4006CFADA /* Main.cpp */; };
+		E1226D7E20E653A5006CFADA /* SceneSplashScreen.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E1226D6D20E653A5006CFADA /* SceneSplashScreen.cpp */; };
+		E1226D8420E653B3006CFADA /* Test Map 1.tmx in Resources */ = {isa = PBXBuildFile; fileRef = E1226D7F20E653B3006CFADA /* Test Map 1.tmx */; };
+		E1226D8520E653B3006CFADA /* Viking.json in Resources */ = {isa = PBXBuildFile; fileRef = E1226D8020E653B3006CFADA /* Viking.json */; };
+		E1226D8620E653B3006CFADA /* that_games_guy_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = E1226D8120E653B3006CFADA /* that_games_guy_logo.png */; };
+		E1226D8720E653B3006CFADA /* Jungle Tiles.png in Resources */ = {isa = PBXBuildFile; fileRef = E1226D8220E653B3006CFADA /* Jungle Tiles.png */; };
+		E1226D8820E653B3006CFADA /* Viking.png in Resources */ = {isa = PBXBuildFile; fileRef = E1226D8320E653B3006CFADA /* Viking.png */; };
+		E1226D8B20E653DD006CFADA /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1226D8A20E653DD006CFADA /* CoreFoundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		E1226D2C20E65342006CFADA /* AI Experiments 1 - UFO.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AI Experiments 1 - UFO.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1226D3020E65342006CFADA /* AI Experiments 1 - UFO-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AI Experiments 1 - UFO-Info.plist"; sourceTree = "<group>"; };
-		E1226D3120E65342006CFADA /* ResourcePath.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ResourcePath.mm; sourceTree = "<group>"; };
-		E1226D3320E65342006CFADA /* ResourcePath.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ResourcePath.hpp; sourceTree = "<group>"; };
-		E1226D3420E65342006CFADA /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
-		E1226D3720E65342006CFADA /* cute_image.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cute_image.jpg; sourceTree = "<group>"; };
-		E1226D3920E65342006CFADA /* nice_music.ogg */ = {isa = PBXFileReference; lastKnownFileType = file; path = nice_music.ogg; sourceTree = "<group>"; };
-		E1226D3B20E65342006CFADA /* sansation.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = sansation.ttf; sourceTree = "<group>"; };
-		E1226D3D20E65342006CFADA /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		E1226D4420E653A2006CFADA /* SceneStateMachine.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SceneStateMachine.cpp; sourceTree = "<group>"; };
+		E1226D4520E653A2006CFADA /* Animation.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Animation.hpp; sourceTree = "<group>"; };
+		E1226D4620E653A2006CFADA /* TileMapParser.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = TileMapParser.hpp; sourceTree = "<group>"; };
+		E1226D4720E653A2006CFADA /* rapidxml_utils.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = rapidxml_utils.hpp; sourceTree = "<group>"; };
+		E1226D4820E653A2006CFADA /* Game.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Game.cpp; sourceTree = "<group>"; };
+		E1226D4920E653A2006CFADA /* SceneGame.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = SceneGame.hpp; sourceTree = "<group>"; };
+		E1226D4A20E653A2006CFADA /* SceneGame.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SceneGame.cpp; sourceTree = "<group>"; };
+		E1226D4B20E653A2006CFADA /* Bitmask.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Bitmask.hpp; sourceTree = "<group>"; };
+		E1226D4C20E653A2006CFADA /* C_KeyboardMovement.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = C_KeyboardMovement.cpp; sourceTree = "<group>"; };
+		E1226D4D20E653A3006CFADA /* Tile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tile.h; sourceTree = "<group>"; };
+		E1226D4E20E653A3006CFADA /* C_Animation.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = C_Animation.cpp; sourceTree = "<group>"; };
+		E1226D4F20E653A3006CFADA /* Component.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Component.hpp; sourceTree = "<group>"; };
+		E1226D5020E653A3006CFADA /* Animation.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Animation.cpp; sourceTree = "<group>"; };
+		E1226D5120E653A3006CFADA /* rapidxml_iterators.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = rapidxml_iterators.hpp; sourceTree = "<group>"; };
+		E1226D5220E653A3006CFADA /* Window.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Window.cpp; sourceTree = "<group>"; };
+		E1226D5320E653A3006CFADA /* C_Sprite.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = C_Sprite.cpp; sourceTree = "<group>"; };
+		E1226D5420E653A3006CFADA /* Scene.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Scene.hpp; sourceTree = "<group>"; };
+		E1226D5520E653A3006CFADA /* Object.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Object.cpp; sourceTree = "<group>"; };
+		E1226D5620E653A3006CFADA /* Input.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Input.cpp; sourceTree = "<group>"; };
+		E1226D5720E653A3006CFADA /* TileMapParser.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TileMapParser.cpp; sourceTree = "<group>"; };
+		E1226D5820E653A3006CFADA /* C_Transform.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = C_Transform.cpp; sourceTree = "<group>"; };
+		E1226D5920E653A4006CFADA /* Bitmask.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Bitmask.cpp; sourceTree = "<group>"; };
+		E1226D5A20E653A4006CFADA /* ObjectCollection.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = ObjectCollection.hpp; sourceTree = "<group>"; };
+		E1226D5B20E653A4006CFADA /* Object.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Object.hpp; sourceTree = "<group>"; };
+		E1226D5C20E653A4006CFADA /* rapidxml.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = rapidxml.hpp; sourceTree = "<group>"; };
+		E1226D5D20E653A4006CFADA /* C_Animation.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = C_Animation.hpp; sourceTree = "<group>"; };
+		E1226D5E20E653A4006CFADA /* Input.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Input.hpp; sourceTree = "<group>"; };
+		E1226D5F20E653A4006CFADA /* ObjectCollection.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ObjectCollection.cpp; sourceTree = "<group>"; };
+		E1226D6020E653A4006CFADA /* Utilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utilities.h; sourceTree = "<group>"; };
+		E1226D6120E653A4006CFADA /* SceneStateMachine.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = SceneStateMachine.hpp; sourceTree = "<group>"; };
+		E1226D6220E653A4006CFADA /* WorkingDirectory.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = WorkingDirectory.cpp; sourceTree = "<group>"; };
+		E1226D6320E653A4006CFADA /* C_Transform.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = C_Transform.hpp; sourceTree = "<group>"; };
+		E1226D6420E653A4006CFADA /* Main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Main.cpp; sourceTree = "<group>"; };
+		E1226D6520E653A4006CFADA /* Game.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Game.hpp; sourceTree = "<group>"; };
+		E1226D6620E653A5006CFADA /* C_KeyboardMovement.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = C_KeyboardMovement.hpp; sourceTree = "<group>"; };
+		E1226D6720E653A5006CFADA /* rapidxml_print.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = rapidxml_print.hpp; sourceTree = "<group>"; };
+		E1226D6820E653A5006CFADA /* ResourceAllocator.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = ResourceAllocator.hpp; sourceTree = "<group>"; };
+		E1226D6920E653A5006CFADA /* SceneSplashScreen.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = SceneSplashScreen.hpp; sourceTree = "<group>"; };
+		E1226D6A20E653A5006CFADA /* Window.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Window.hpp; sourceTree = "<group>"; };
+		E1226D6B20E653A5006CFADA /* C_Sprite.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = C_Sprite.hpp; sourceTree = "<group>"; };
+		E1226D6C20E653A5006CFADA /* WorkingDirectory.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = WorkingDirectory.hpp; sourceTree = "<group>"; };
+		E1226D6D20E653A5006CFADA /* SceneSplashScreen.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SceneSplashScreen.cpp; sourceTree = "<group>"; };
+		E1226D7F20E653B3006CFADA /* Test Map 1.tmx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "Test Map 1.tmx"; sourceTree = "<group>"; };
+		E1226D8020E653B3006CFADA /* Viking.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Viking.json; sourceTree = "<group>"; };
+		E1226D8120E653B3006CFADA /* that_games_guy_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = that_games_guy_logo.png; sourceTree = "<group>"; };
+		E1226D8220E653B3006CFADA /* Jungle Tiles.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Jungle Tiles.png"; sourceTree = "<group>"; };
+		E1226D8320E653B3006CFADA /* Viking.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Viking.png; sourceTree = "<group>"; };
+		E1226D8A20E653DD006CFADA /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E1226D8B20E653DD006CFADA /* CoreFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -43,6 +102,7 @@
 			children = (
 				E1226D2E20E65342006CFADA /* AI Experiments 1 - UFO */,
 				E1226D2D20E65342006CFADA /* Products */,
+				E1226D8920E653DD006CFADA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -57,9 +117,26 @@
 		E1226D2E20E65342006CFADA /* AI Experiments 1 - UFO */ = {
 			isa = PBXGroup;
 			children = (
-				E1226D3120E65342006CFADA /* ResourcePath.mm */,
-				E1226D3320E65342006CFADA /* ResourcePath.hpp */,
-				E1226D3420E65342006CFADA /* main.cpp */,
+				E1226D9020E65443006CFADA /* Components */,
+				E1226D8F20E65436006CFADA /* TIlemap */,
+				E1226D8E20E65429006CFADA /* Objects */,
+				E1226D8D20E6540E006CFADA /* Scenes */,
+				E1226D8C20E653F4006CFADA /* XML Parser */,
+				E1226D5020E653A3006CFADA /* Animation.cpp */,
+				E1226D4520E653A2006CFADA /* Animation.hpp */,
+				E1226D5920E653A4006CFADA /* Bitmask.cpp */,
+				E1226D4B20E653A2006CFADA /* Bitmask.hpp */,
+				E1226D4820E653A2006CFADA /* Game.cpp */,
+				E1226D6520E653A4006CFADA /* Game.hpp */,
+				E1226D5620E653A3006CFADA /* Input.cpp */,
+				E1226D5E20E653A4006CFADA /* Input.hpp */,
+				E1226D6420E653A4006CFADA /* Main.cpp */,
+				E1226D6820E653A5006CFADA /* ResourceAllocator.hpp */,
+				E1226D6020E653A4006CFADA /* Utilities.h */,
+				E1226D5220E653A3006CFADA /* Window.cpp */,
+				E1226D6A20E653A5006CFADA /* Window.hpp */,
+				E1226D6220E653A4006CFADA /* WorkingDirectory.cpp */,
+				E1226D6C20E653A5006CFADA /* WorkingDirectory.hpp */,
 				E1226D3620E65342006CFADA /* Resources */,
 				E1226D2F20E65342006CFADA /* Supporting Files */,
 			);
@@ -77,12 +154,83 @@
 		E1226D3620E65342006CFADA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				E1226D3720E65342006CFADA /* cute_image.jpg */,
-				E1226D3920E65342006CFADA /* nice_music.ogg */,
-				E1226D3B20E65342006CFADA /* sansation.ttf */,
-				E1226D3D20E65342006CFADA /* icon.png */,
+				E1226D8220E653B3006CFADA /* Jungle Tiles.png */,
+				E1226D7F20E653B3006CFADA /* Test Map 1.tmx */,
+				E1226D8120E653B3006CFADA /* that_games_guy_logo.png */,
+				E1226D8020E653B3006CFADA /* Viking.json */,
+				E1226D8320E653B3006CFADA /* Viking.png */,
 			);
 			name = Resources;
+			sourceTree = "<group>";
+		};
+		E1226D8920E653DD006CFADA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E1226D8A20E653DD006CFADA /* CoreFoundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E1226D8C20E653F4006CFADA /* XML Parser */ = {
+			isa = PBXGroup;
+			children = (
+				E1226D5120E653A3006CFADA /* rapidxml_iterators.hpp */,
+				E1226D6720E653A5006CFADA /* rapidxml_print.hpp */,
+				E1226D4720E653A2006CFADA /* rapidxml_utils.hpp */,
+				E1226D5C20E653A4006CFADA /* rapidxml.hpp */,
+			);
+			name = "XML Parser";
+			sourceTree = "<group>";
+		};
+		E1226D8D20E6540E006CFADA /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				E1226D5420E653A3006CFADA /* Scene.hpp */,
+				E1226D4A20E653A2006CFADA /* SceneGame.cpp */,
+				E1226D4920E653A2006CFADA /* SceneGame.hpp */,
+				E1226D6D20E653A5006CFADA /* SceneSplashScreen.cpp */,
+				E1226D6920E653A5006CFADA /* SceneSplashScreen.hpp */,
+				E1226D4420E653A2006CFADA /* SceneStateMachine.cpp */,
+				E1226D6120E653A4006CFADA /* SceneStateMachine.hpp */,
+			);
+			name = Scenes;
+			sourceTree = "<group>";
+		};
+		E1226D8E20E65429006CFADA /* Objects */ = {
+			isa = PBXGroup;
+			children = (
+				E1226D5520E653A3006CFADA /* Object.cpp */,
+				E1226D5B20E653A4006CFADA /* Object.hpp */,
+				E1226D5F20E653A4006CFADA /* ObjectCollection.cpp */,
+				E1226D5A20E653A4006CFADA /* ObjectCollection.hpp */,
+			);
+			name = Objects;
+			sourceTree = "<group>";
+		};
+		E1226D8F20E65436006CFADA /* TIlemap */ = {
+			isa = PBXGroup;
+			children = (
+				E1226D4D20E653A3006CFADA /* Tile.h */,
+				E1226D5720E653A3006CFADA /* TileMapParser.cpp */,
+				E1226D4620E653A2006CFADA /* TileMapParser.hpp */,
+			);
+			name = TIlemap;
+			sourceTree = "<group>";
+		};
+		E1226D9020E65443006CFADA /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				E1226D4E20E653A3006CFADA /* C_Animation.cpp */,
+				E1226D5D20E653A4006CFADA /* C_Animation.hpp */,
+				E1226D4C20E653A2006CFADA /* C_KeyboardMovement.cpp */,
+				E1226D6620E653A5006CFADA /* C_KeyboardMovement.hpp */,
+				E1226D5320E653A3006CFADA /* C_Sprite.cpp */,
+				E1226D6B20E653A5006CFADA /* C_Sprite.hpp */,
+				E1226D5820E653A3006CFADA /* C_Transform.cpp */,
+				E1226D6320E653A4006CFADA /* C_Transform.hpp */,
+				E1226D4F20E653A3006CFADA /* Component.hpp */,
+			);
+			name = Components;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -142,10 +290,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E1226D3E20E65342006CFADA /* icon.png in Resources */,
-				E1226D3C20E65342006CFADA /* sansation.ttf in Resources */,
-				E1226D3A20E65342006CFADA /* nice_music.ogg in Resources */,
-				E1226D3820E65342006CFADA /* cute_image.jpg in Resources */,
+				E1226D8420E653B3006CFADA /* Test Map 1.tmx in Resources */,
+				E1226D8820E653B3006CFADA /* Viking.png in Resources */,
+				E1226D8720E653B3006CFADA /* Jungle Tiles.png in Resources */,
+				E1226D8620E653B3006CFADA /* that_games_guy_logo.png in Resources */,
+				E1226D8520E653B3006CFADA /* Viking.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -172,8 +321,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E1226D3520E65342006CFADA /* main.cpp in Sources */,
-				E1226D3220E65342006CFADA /* ResourcePath.mm in Sources */,
+				E1226D7420E653A5006CFADA /* Window.cpp in Sources */,
+				E1226D7820E653A5006CFADA /* TileMapParser.cpp in Sources */,
+				E1226D7020E653A5006CFADA /* SceneGame.cpp in Sources */,
+				E1226D7120E653A5006CFADA /* C_KeyboardMovement.cpp in Sources */,
+				E1226D7320E653A5006CFADA /* Animation.cpp in Sources */,
+				E1226D7720E653A5006CFADA /* Input.cpp in Sources */,
+				E1226D7220E653A5006CFADA /* C_Animation.cpp in Sources */,
+				E1226D6E20E653A5006CFADA /* SceneStateMachine.cpp in Sources */,
+				E1226D7A20E653A5006CFADA /* Bitmask.cpp in Sources */,
+				E1226D7520E653A5006CFADA /* C_Sprite.cpp in Sources */,
+				E1226D6F20E653A5006CFADA /* Game.cpp in Sources */,
+				E1226D7920E653A5006CFADA /* C_Transform.cpp in Sources */,
+				E1226D7B20E653A5006CFADA /* ObjectCollection.cpp in Sources */,
+				E1226D7620E653A5006CFADA /* Object.cpp in Sources */,
+				E1226D7D20E653A5006CFADA /* Main.cpp in Sources */,
+				E1226D7E20E653A5006CFADA /* SceneSplashScreen.cpp in Sources */,
+				E1226D7C20E653A5006CFADA /* WorkingDirectory.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,6 +438,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "AI Experiments 1 - UFO/AI Experiments 1 - UFO-Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../Frameworks";
+				OTHER_CFLAGS = (
+					"-D",
+					MACOS,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "thatgamesguy.AI-Experiments-1-UFO";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -284,6 +453,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "AI Experiments 1 - UFO/AI Experiments 1 - UFO-Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../Frameworks";
+				OTHER_CFLAGS = (
+					"-D",
+					MACOS,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "thatgamesguy.AI-Experiments-1-UFO";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;

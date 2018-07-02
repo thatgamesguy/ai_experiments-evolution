@@ -35,6 +35,8 @@
 		E1E0F38D20EA60C10077556F /* Neuron.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E1E0F38B20EA60C10077556F /* Neuron.cpp */; };
 		E1E0F39020EA62FC0077556F /* NeuronLayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E1E0F38E20EA62FC0077556F /* NeuronLayer.cpp */; };
 		E1E0F39320EA638D0077556F /* NeuralNetwork.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E1E0F39120EA638D0077556F /* NeuralNetwork.cpp */; };
+		E1E0F39920EA6A4F0077556F /* C_NeuralNetwork.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E1E0F39720EA6A4F0077556F /* C_NeuralNetwork.cpp */; };
+		E1E0F39C20EA6E290077556F /* C_Sight.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E1E0F39A20EA6E290077556F /* C_Sight.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -98,6 +100,10 @@
 		E1E0F38F20EA62FC0077556F /* NeuronLayer.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = NeuronLayer.hpp; sourceTree = "<group>"; };
 		E1E0F39120EA638D0077556F /* NeuralNetwork.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = NeuralNetwork.cpp; sourceTree = "<group>"; };
 		E1E0F39220EA638D0077556F /* NeuralNetwork.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = NeuralNetwork.hpp; sourceTree = "<group>"; };
+		E1E0F39720EA6A4F0077556F /* C_NeuralNetwork.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = C_NeuralNetwork.cpp; sourceTree = "<group>"; };
+		E1E0F39820EA6A4F0077556F /* C_NeuralNetwork.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = C_NeuralNetwork.hpp; sourceTree = "<group>"; };
+		E1E0F39A20EA6E290077556F /* C_Sight.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = C_Sight.cpp; sourceTree = "<group>"; };
+		E1E0F39B20EA6E290077556F /* C_Sight.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = C_Sight.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -249,6 +255,10 @@
 				E1226D9A20E65E8D006CFADA /* C_Velocity.hpp */,
 				E1226D9C20E663B1006CFADA /* C_ScreenWrapAround.cpp */,
 				E1226D9D20E663B1006CFADA /* C_ScreenWrapAround.hpp */,
+				E1E0F39720EA6A4F0077556F /* C_NeuralNetwork.cpp */,
+				E1E0F39820EA6A4F0077556F /* C_NeuralNetwork.hpp */,
+				E1E0F39A20EA6E290077556F /* C_Sight.cpp */,
+				E1E0F39B20EA6E290077556F /* C_Sight.hpp */,
 			);
 			name = Components;
 			sourceTree = "<group>";
@@ -359,6 +369,7 @@
 				E1226D7020E653A5006CFADA /* SceneGame.cpp in Sources */,
 				E1E0F39320EA638D0077556F /* NeuralNetwork.cpp in Sources */,
 				E1226D7120E653A5006CFADA /* C_KeyboardMovement.cpp in Sources */,
+				E1E0F39920EA6A4F0077556F /* C_NeuralNetwork.cpp in Sources */,
 				E1226D7320E653A5006CFADA /* Animation.cpp in Sources */,
 				E1226D7720E653A5006CFADA /* Input.cpp in Sources */,
 				E1226D9B20E65E8D006CFADA /* C_Velocity.cpp in Sources */,
@@ -374,6 +385,7 @@
 				E1226D7620E653A5006CFADA /* Object.cpp in Sources */,
 				E1226D7D20E653A5006CFADA /* Main.cpp in Sources */,
 				E1226D7E20E653A5006CFADA /* SceneSplashScreen.cpp in Sources */,
+				E1E0F39C20EA6E290077556F /* C_Sight.cpp in Sources */,
 				E1E0F38D20EA60C10077556F /* Neuron.cpp in Sources */,
 				E1226D7C20E653A5006CFADA /* WorkingDirectory.cpp in Sources */,
 			);

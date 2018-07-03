@@ -20,6 +20,8 @@ public:
     void ProcessNewObjects();
     void ProcessRemovals();
     
+    std::vector<std::shared_ptr<Object>>& GetObjects();
+    
 private:
     std::vector<std::shared_ptr<Object>> objects;
     std::vector<std::shared_ptr<Object>> newObjects;

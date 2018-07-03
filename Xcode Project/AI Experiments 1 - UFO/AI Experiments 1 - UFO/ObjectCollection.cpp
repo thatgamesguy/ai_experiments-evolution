@@ -73,3 +73,8 @@ void ObjectCollection::ProcessRemovals()
         }
     }
 }
+
+std::vector<std::shared_ptr<Object>>& ObjectCollection::GetObjects()
+{
+    return objects;
+}

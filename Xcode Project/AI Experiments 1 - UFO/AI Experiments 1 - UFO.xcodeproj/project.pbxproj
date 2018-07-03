@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E1202B0B20EB5FCB000D4715 /* C_InstanceID.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E1202B0920EB5FCB000D4715 /* C_InstanceID.cpp */; };
 		E1226D6E20E653A5006CFADA /* SceneStateMachine.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E1226D4420E653A2006CFADA /* SceneStateMachine.cpp */; };
 		E1226D6F20E653A5006CFADA /* Game.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E1226D4820E653A2006CFADA /* Game.cpp */; };
 		E1226D7020E653A5006CFADA /* SceneGame.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E1226D4A20E653A2006CFADA /* SceneGame.cpp */; };
@@ -40,6 +41,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E1202B0920EB5FCB000D4715 /* C_InstanceID.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = C_InstanceID.cpp; sourceTree = "<group>"; };
+		E1202B0A20EB5FCB000D4715 /* C_InstanceID.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = C_InstanceID.hpp; sourceTree = "<group>"; };
 		E1226D2C20E65342006CFADA /* AI Experiments 1 - UFO.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AI Experiments 1 - UFO.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1226D3020E65342006CFADA /* AI Experiments 1 - UFO-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AI Experiments 1 - UFO-Info.plist"; sourceTree = "<group>"; };
 		E1226D4420E653A2006CFADA /* SceneStateMachine.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SceneStateMachine.cpp; sourceTree = "<group>"; };
@@ -259,6 +262,8 @@
 				E1E0F39820EA6A4F0077556F /* C_NeuralNetwork.hpp */,
 				E1E0F39A20EA6E290077556F /* C_Sight.cpp */,
 				E1E0F39B20EA6E290077556F /* C_Sight.hpp */,
+				E1202B0920EB5FCB000D4715 /* C_InstanceID.cpp */,
+				E1202B0A20EB5FCB000D4715 /* C_InstanceID.hpp */,
 			);
 			name = Components;
 			sourceTree = "<group>";
@@ -387,6 +392,7 @@
 				E1226D7E20E653A5006CFADA /* SceneSplashScreen.cpp in Sources */,
 				E1E0F39C20EA6E290077556F /* C_Sight.cpp in Sources */,
 				E1E0F38D20EA60C10077556F /* Neuron.cpp in Sources */,
+				E1202B0B20EB5FCB000D4715 /* C_InstanceID.cpp in Sources */,
 				E1226D7C20E653A5006CFADA /* WorkingDirectory.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

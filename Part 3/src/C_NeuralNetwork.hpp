@@ -19,6 +19,8 @@ public:
     
     void SetWindowSize(const sf::Vector2u& windowSize);
     
+    const NeuralNetwork& Get() const;
+    
 private:
     std::vector<float> BuildNetworkInput();
     

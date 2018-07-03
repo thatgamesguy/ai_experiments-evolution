@@ -47,9 +47,7 @@ void ObjectCollection::ProcessNewObjects()
         {
             o->Start();
         }
-       
-        objects.assign(newObjects.begin(), newObjects.end());
-        
+               
         objects.insert(objects.end(), newObjects.begin(), newObjects.end());
 
         newObjects.clear();

@@ -17,6 +17,7 @@ struct UFOGAData
 {
     std::shared_ptr<C_NeuralNetwork> neuralNet;
     std::shared_ptr<C_Energy> energy;
+    std::shared_ptr<C_TimeAlive> timeAlive;
 };
 
 class GeneticAlgorithm
@@ -37,6 +38,7 @@ private:
     WorkingDirectory& workingDir;
     ResourceAllocator<sf::Texture>& textureAllocator;
     Window& window;
+    int maxPoolSize;
 };
 
 #endif /* GeneticAlgorithm_hpp */

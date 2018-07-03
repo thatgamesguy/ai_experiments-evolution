@@ -31,6 +31,11 @@ void C_NeuralNetwork::SetWindowSize(const sf::Vector2u& windowSize)
     this->windowSize = windowSize;
 }
 
+const NeuralNetwork& C_NeuralNetwork::Get() const
+{
+    return neuralNetwork;
+}
+
 std::vector<float> C_NeuralNetwork::BuildNetworkInput()
 {
     std::vector<float> networkInput;

@@ -29,6 +29,7 @@ void GeneticAlgorithm::Update(float deltaTime)
                 std::shared_ptr<UFOGAData> gaData = std::make_shared<UFOGAData>();
                 gaData->energy = energy;
                 gaData->neuralNet = neuralNetwork;
+                gaData->timeAlive = o->GetComponent<C_TimeAlive>();
                 
                 AddToPool(gaData);
             }
@@ -98,5 +99,5 @@ std::shared_ptr<C_NeuralNetwork> GeneticAlgorithm::SpawnUFO()
 
 bool GeneticAlgorithm::PoolSort(std::shared_ptr<UFOGAData> a, std::shared_ptr<UFOGAData> b)
 {
-    return a->energy->Get() > b->energy->Get();
+    return a->timeAlive->Get() > b->timeAlive->Get();
 }

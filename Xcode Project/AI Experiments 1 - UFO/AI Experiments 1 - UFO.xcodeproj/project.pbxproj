@@ -12,6 +12,7 @@
 		E1202B1120EB64FC000D4715 /* C_DamageOnWallHit.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E1202B0F20EB64FC000D4715 /* C_DamageOnWallHit.cpp */; };
 		E1202B1420EB656E000D4715 /* C_Energy.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E1202B1220EB656E000D4715 /* C_Energy.cpp */; };
 		E1202B1720EB69AB000D4715 /* C_DamageOnCollision.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E1202B1520EB69AB000D4715 /* C_DamageOnCollision.cpp */; };
+		E1202B1A20EB9A99000D4715 /* C_TimeAlive.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E1202B1820EB9A99000D4715 /* C_TimeAlive.cpp */; };
 		E1226D6E20E653A5006CFADA /* SceneStateMachine.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E1226D4420E653A2006CFADA /* SceneStateMachine.cpp */; };
 		E1226D6F20E653A5006CFADA /* Game.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E1226D4820E653A2006CFADA /* Game.cpp */; };
 		E1226D7020E653A5006CFADA /* SceneGame.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E1226D4A20E653A2006CFADA /* SceneGame.cpp */; };
@@ -55,6 +56,8 @@
 		E1202B1320EB656E000D4715 /* C_Energy.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = C_Energy.hpp; sourceTree = "<group>"; };
 		E1202B1520EB69AB000D4715 /* C_DamageOnCollision.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = C_DamageOnCollision.cpp; sourceTree = "<group>"; };
 		E1202B1620EB69AB000D4715 /* C_DamageOnCollision.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = C_DamageOnCollision.hpp; sourceTree = "<group>"; };
+		E1202B1820EB9A99000D4715 /* C_TimeAlive.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = C_TimeAlive.cpp; sourceTree = "<group>"; };
+		E1202B1920EB9A99000D4715 /* C_TimeAlive.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = C_TimeAlive.hpp; sourceTree = "<group>"; };
 		E1226D2C20E65342006CFADA /* AI Experiments 1 - UFO.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AI Experiments 1 - UFO.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1226D3020E65342006CFADA /* AI Experiments 1 - UFO-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AI Experiments 1 - UFO-Info.plist"; sourceTree = "<group>"; };
 		E1226D4420E653A2006CFADA /* SceneStateMachine.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SceneStateMachine.cpp; sourceTree = "<group>"; };
@@ -284,6 +287,8 @@
 				E1202B1320EB656E000D4715 /* C_Energy.hpp */,
 				E1202B1520EB69AB000D4715 /* C_DamageOnCollision.cpp */,
 				E1202B1620EB69AB000D4715 /* C_DamageOnCollision.hpp */,
+				E1202B1820EB9A99000D4715 /* C_TimeAlive.cpp */,
+				E1202B1920EB9A99000D4715 /* C_TimeAlive.hpp */,
 			);
 			name = Components;
 			sourceTree = "<group>";
@@ -395,6 +400,7 @@
 				E1202B1120EB64FC000D4715 /* C_DamageOnWallHit.cpp in Sources */,
 				E1E0F39320EA638D0077556F /* NeuralNetwork.cpp in Sources */,
 				E1226D7120E653A5006CFADA /* C_KeyboardMovement.cpp in Sources */,
+				E1202B1A20EB9A99000D4715 /* C_TimeAlive.cpp in Sources */,
 				E1E0F39920EA6A4F0077556F /* C_NeuralNetwork.cpp in Sources */,
 				E1226D7320E653A5006CFADA /* Animation.cpp in Sources */,
 				E1226D7720E653A5006CFADA /* Input.cpp in Sources */,

@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		E1202B0B20EB5FCB000D4715 /* C_InstanceID.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E1202B0920EB5FCB000D4715 /* C_InstanceID.cpp */; };
+		E1202B0E20EB64A0000D4715 /* GeneticAlgorithm.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E1202B0C20EB64A0000D4715 /* GeneticAlgorithm.cpp */; };
+		E1202B1120EB64FC000D4715 /* C_DamageOnWallHit.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E1202B0F20EB64FC000D4715 /* C_DamageOnWallHit.cpp */; };
+		E1202B1420EB656E000D4715 /* C_Energy.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E1202B1220EB656E000D4715 /* C_Energy.cpp */; };
+		E1202B1720EB69AB000D4715 /* C_DamageOnCollision.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E1202B1520EB69AB000D4715 /* C_DamageOnCollision.cpp */; };
 		E1226D6E20E653A5006CFADA /* SceneStateMachine.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E1226D4420E653A2006CFADA /* SceneStateMachine.cpp */; };
 		E1226D6F20E653A5006CFADA /* Game.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E1226D4820E653A2006CFADA /* Game.cpp */; };
 		E1226D7020E653A5006CFADA /* SceneGame.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E1226D4A20E653A2006CFADA /* SceneGame.cpp */; };
@@ -43,6 +47,14 @@
 /* Begin PBXFileReference section */
 		E1202B0920EB5FCB000D4715 /* C_InstanceID.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = C_InstanceID.cpp; sourceTree = "<group>"; };
 		E1202B0A20EB5FCB000D4715 /* C_InstanceID.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = C_InstanceID.hpp; sourceTree = "<group>"; };
+		E1202B0C20EB64A0000D4715 /* GeneticAlgorithm.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = GeneticAlgorithm.cpp; sourceTree = "<group>"; };
+		E1202B0D20EB64A0000D4715 /* GeneticAlgorithm.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = GeneticAlgorithm.hpp; sourceTree = "<group>"; };
+		E1202B0F20EB64FC000D4715 /* C_DamageOnWallHit.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = C_DamageOnWallHit.cpp; sourceTree = "<group>"; };
+		E1202B1020EB64FC000D4715 /* C_DamageOnWallHit.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = C_DamageOnWallHit.hpp; sourceTree = "<group>"; };
+		E1202B1220EB656E000D4715 /* C_Energy.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = C_Energy.cpp; sourceTree = "<group>"; };
+		E1202B1320EB656E000D4715 /* C_Energy.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = C_Energy.hpp; sourceTree = "<group>"; };
+		E1202B1520EB69AB000D4715 /* C_DamageOnCollision.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = C_DamageOnCollision.cpp; sourceTree = "<group>"; };
+		E1202B1620EB69AB000D4715 /* C_DamageOnCollision.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = C_DamageOnCollision.hpp; sourceTree = "<group>"; };
 		E1226D2C20E65342006CFADA /* AI Experiments 1 - UFO.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AI Experiments 1 - UFO.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1226D3020E65342006CFADA /* AI Experiments 1 - UFO-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AI Experiments 1 - UFO-Info.plist"; sourceTree = "<group>"; };
 		E1226D4420E653A2006CFADA /* SceneStateMachine.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SceneStateMachine.cpp; sourceTree = "<group>"; };
@@ -162,6 +174,8 @@
 				E1226D6A20E653A5006CFADA /* Window.hpp */,
 				E1226D6220E653A4006CFADA /* WorkingDirectory.cpp */,
 				E1226D6C20E653A5006CFADA /* WorkingDirectory.hpp */,
+				E1202B0C20EB64A0000D4715 /* GeneticAlgorithm.cpp */,
+				E1202B0D20EB64A0000D4715 /* GeneticAlgorithm.hpp */,
 				E1226D3620E65342006CFADA /* Resources */,
 				E1226D2F20E65342006CFADA /* Supporting Files */,
 			);
@@ -264,6 +278,12 @@
 				E1E0F39B20EA6E290077556F /* C_Sight.hpp */,
 				E1202B0920EB5FCB000D4715 /* C_InstanceID.cpp */,
 				E1202B0A20EB5FCB000D4715 /* C_InstanceID.hpp */,
+				E1202B0F20EB64FC000D4715 /* C_DamageOnWallHit.cpp */,
+				E1202B1020EB64FC000D4715 /* C_DamageOnWallHit.hpp */,
+				E1202B1220EB656E000D4715 /* C_Energy.cpp */,
+				E1202B1320EB656E000D4715 /* C_Energy.hpp */,
+				E1202B1520EB69AB000D4715 /* C_DamageOnCollision.cpp */,
+				E1202B1620EB69AB000D4715 /* C_DamageOnCollision.hpp */,
 			);
 			name = Components;
 			sourceTree = "<group>";
@@ -372,6 +392,7 @@
 				E1226D7420E653A5006CFADA /* Window.cpp in Sources */,
 				E1226D7820E653A5006CFADA /* TileMapParser.cpp in Sources */,
 				E1226D7020E653A5006CFADA /* SceneGame.cpp in Sources */,
+				E1202B1120EB64FC000D4715 /* C_DamageOnWallHit.cpp in Sources */,
 				E1E0F39320EA638D0077556F /* NeuralNetwork.cpp in Sources */,
 				E1226D7120E653A5006CFADA /* C_KeyboardMovement.cpp in Sources */,
 				E1E0F39920EA6A4F0077556F /* C_NeuralNetwork.cpp in Sources */,
@@ -388,12 +409,15 @@
 				E1226D7920E653A5006CFADA /* C_Transform.cpp in Sources */,
 				E1226D7B20E653A5006CFADA /* ObjectCollection.cpp in Sources */,
 				E1226D7620E653A5006CFADA /* Object.cpp in Sources */,
+				E1202B0E20EB64A0000D4715 /* GeneticAlgorithm.cpp in Sources */,
+				E1202B1420EB656E000D4715 /* C_Energy.cpp in Sources */,
 				E1226D7D20E653A5006CFADA /* Main.cpp in Sources */,
 				E1226D7E20E653A5006CFADA /* SceneSplashScreen.cpp in Sources */,
 				E1E0F39C20EA6E290077556F /* C_Sight.cpp in Sources */,
 				E1E0F38D20EA60C10077556F /* Neuron.cpp in Sources */,
 				E1202B0B20EB5FCB000D4715 /* C_InstanceID.cpp in Sources */,
 				E1226D7C20E653A5006CFADA /* WorkingDirectory.cpp in Sources */,
+				E1202B1720EB69AB000D4715 /* C_DamageOnCollision.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

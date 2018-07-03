@@ -32,16 +32,11 @@ private:
     std::shared_ptr<C_NeuralNetwork> SpawnUFO();
     void AddToPool(std::shared_ptr<UFOGAData> ufo);
     
-    void CalculateTotalFitness();
-    int FitnessProportionateSelection();
-    
     std::vector<std::shared_ptr<UFOGAData>> pool;
     ObjectCollection& objects;
     WorkingDirectory& workingDir;
     ResourceAllocator<sf::Texture>& textureAllocator;
     Window& window;
-    int maxPoolSize;
-    float totalFitnessScore;
 };
 
 #endif /* GeneticAlgorithm_hpp */

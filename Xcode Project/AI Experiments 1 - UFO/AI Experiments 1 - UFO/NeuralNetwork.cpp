@@ -129,11 +129,10 @@ const std::vector<int>& NeuralNetwork::GetSplitPoints() const
 
 void NeuralNetwork::Mutate()
 {
-    int numOfWeights = CalculateAndGetNumberOfWeights();
+    std::vector<float> weights = GetWeights();
+    const unsigned int numOfWeights = weights.size();
     
     int numOfSwaps = (rand() % static_cast<int>(numOfWeights / 2));
-    
-    std::vector<float> weights = GetWeights();
     
     for (int i = 0; i < numOfSwaps; i++)
     {

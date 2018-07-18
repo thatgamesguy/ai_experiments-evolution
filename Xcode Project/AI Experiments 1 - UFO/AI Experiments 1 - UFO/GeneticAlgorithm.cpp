@@ -2,7 +2,7 @@
 #include "GeneticAlgorithm.hpp"
 
 
-GeneticAlgorithm::GeneticAlgorithm(ObjectCollection& objects, WorkingDirectory& workingDir, ResourceAllocator<sf::Texture>& textureAllocator, Window& window) : objects(objects), workingDir(workingDir), textureAllocator(textureAllocator), window(window), maxPoolSize(40), totalFitnessScore(0.f), mutationChance(0.1f), genNumber(0), addedToGame(0)
+GeneticAlgorithm::GeneticAlgorithm(ObjectCollection& objects, WorkingDirectory& workingDir, ResourceAllocator<sf::Texture>& textureAllocator, Window& window) : objects(objects), workingDir(workingDir), textureAllocator(textureAllocator), window(window), maxPoolSize(40), totalFitnessScore(0.f), mutationChance(0.01f), genNumber(0), addedToGame(0)
 {
     const unsigned int numOfUFOsToSpawn = 200;
     
@@ -60,9 +60,9 @@ void GeneticAlgorithm::Update(float deltaTime)
                         }
                         
                         std::shared_ptr<C_NeuralNetwork> newUFO = SpawnUFO();
-                        newUFO->Set(childNetwork); // We've created a new UFO and set its network to be a combination of two retirned UFOs.
+                        newUFO->Set(childNetwork);
                         
-                        if(++addedToGame % maxPoolSize == 0)
+                        if(++addedToGame > maxPoolSize)
                         {
                             LogAverageFitness();
                             addedToGame = 0;
@@ -153,7 +153,7 @@ NeuralNetwork GeneticAlgorithm::CreateNeuralNetworkFromCrossOver(const NeuralNet
 void GeneticAlgorithm::LogAverageFitness()
 {
     log.open("ga_log.txt", std::ios_base::app | std::ios_base::out);
-    log << std::to_string(++genNumber) << ": " << std::to_string(totalFitnessScore / maxPoolSize) <<  std::endl;
+    log << std::to_string(++genNumber) << ": " << std::to_string(totalFitnessScore / pool.size()) <<  std::endl;
     log.close();
 }
 

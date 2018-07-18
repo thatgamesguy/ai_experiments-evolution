@@ -1,9 +1,10 @@
 #include "Window.hpp"
 
-Window::Window(const std::string& windowName) : window(sf::VideoMode(1920, 1080), windowName, sf::Style::Titlebar)
+Window::Window(const std::string& windowName) : window(sf::VideoMode(1920, 1080), windowName, sf::Style::Fullscreen)
 {
     window.setVerticalSyncEnabled(true);
     window.setFramerateLimit(60);
+    window.setMouseCursorVisible(false);
 }
 
 void Window::Update()

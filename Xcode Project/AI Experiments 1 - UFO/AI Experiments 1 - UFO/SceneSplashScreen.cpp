@@ -19,6 +19,8 @@ void SceneSplashScreen::OnCreate()
         
         sf::Vector2u windowCentre = window.GetCentre();
         splashSprite.setPosition(windowCentre.x, windowCentre.y);
+        
+        splashSprite.setScale(1.8, 1.8);
     }
 }
 

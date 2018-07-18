@@ -66,7 +66,7 @@ std::vector<float> NeuralNetwork::GetOutput(const std::vector<float>& input)
             netInput += layers[i].neurons[j].weights[numInputs - 1] * bias;
             
             //Store result in output
-            //    float sigOutput = FastSigmoid(netInput);
+            //float sigOutput = FastSigmoid(netInput);
             outputs.push_back(netInput);
             
             weightCount = 0;

@@ -4,7 +4,7 @@
 
 GeneticAlgorithm::GeneticAlgorithm(ObjectCollection& objects, WorkingDirectory& workingDir, ResourceAllocator<sf::Texture>& textureAllocator, Window& window) : objects(objects), workingDir(workingDir), textureAllocator(textureAllocator), window(window), maxPoolSize(40), totalFitnessScore(0.f), mutationChance(0.1f), genNumber(0), addedToGame(0)
 {
-    const unsigned int numOfUFOsToSpawn = 80;
+    const unsigned int numOfUFOsToSpawn = 200;
     
     for (int i = 0; i < numOfUFOsToSpawn; i++)
     {

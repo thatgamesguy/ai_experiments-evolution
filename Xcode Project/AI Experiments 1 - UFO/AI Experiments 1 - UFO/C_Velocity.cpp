@@ -1,7 +1,7 @@
 #include "C_Velocity.hpp"
 #include "Object.hpp"
 
-C_Velocity::C_Velocity(Object* owner) : Component(owner), velocity(0.f, 0.f), maxVelocity(80.f, 80.f){}
+C_Velocity::C_Velocity(Object* owner) : Component(owner), velocity(0.f, 0.f), maxVelocity(200.f, 200.f){}
 
 
 void C_Velocity::Update(float deltaTime)
